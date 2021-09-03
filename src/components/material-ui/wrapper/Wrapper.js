@@ -1,12 +1,11 @@
-import React from 'react'
-import Container from "@material-ui/core/Container/Container"
+import React from "react";
 
-const Wrapper = ({children}) => {
-    return (
-        <Container maxWidth="md">
-            {children}
-        </Container>
-    )
-}
+const Wrapper = () => {
+  return (
+    <div>
+      <p>Wrapper here</p>
+    </div>
+  );
+};
 
-export default Wrapper
+export default Wrapper;
