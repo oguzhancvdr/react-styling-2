@@ -1,13 +1,11 @@
-import React from 'react'
-import Typography from '@material-ui/core/Typography/Typography';
+import React from "react";
 
 const TypographyComp = () => {
-    return (
-        <>
-            <Typography variant="h2" component="div">Clarusway Muı Session</Typography>
-            <Typography variant="subtitle1" component="div">We're learning Muı</Typography>
-        </>
-    )
-}
+  return (
+    <>
+      <p>Typography Here</p>
+    </>
+  );
+};
 
-export default TypographyComp
+export default TypographyComp;
