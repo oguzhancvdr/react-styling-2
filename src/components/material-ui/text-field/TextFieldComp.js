@@ -1,20 +1,9 @@
-import TextField from '@material-ui/core/TextField/TextField'
-
-
 const TextFieldComp = () => {
-    return (
-        <div>
-            <TextField 
-            color="secondary"
-            variant="filled" 
-            type="email" 
-            label="The Email"
-            // defaultValue="muı@muı.com"
-            placeholder="muı@muı.com"
-            
-            />
-        </div>
-    )
-}
+  return (
+    <div>
+      <p>Text Field here</p>
+    </div>
+  );
+};
 
-export default TextFieldComp
+export default TextFieldComp;
