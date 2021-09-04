@@ -8,6 +8,7 @@ import TypographyComp from "./components/material-ui/typography/TypographyComp";
 import Wrapper from "./components/material-ui/wrapper/Wrapper";
 import Cards from "./components/material-ui/cards/Cards";
 import AppBarComp from "./components/material-ui/app-bar/AppBarComp";
+import StyledButton from "./components/material-ui/styled-button/StyledButton";
 
 // import StyledComponents from "./components/styled-comp";
 
@@ -40,6 +41,7 @@ function App() {
         <div className="App">
           <header className="App-header">
             {/* <StyledComponents /> */}
+            <StyledButton />
             <TypographyComp />
             <Cards />
             <TextFieldComp />
