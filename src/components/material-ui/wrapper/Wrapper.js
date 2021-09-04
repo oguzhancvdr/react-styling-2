@@ -1,10 +1,12 @@
 import React from "react";
+import Container from "@material-ui/core/Container/Container"
 
-const Wrapper = () => {
+
+const Wrapper = ({children}) => {
   return (
-    <div>
-      <p>Wrapper here</p>
-    </div>
+    <Container maxWidth="md">
+      {children}
+    </Container>
   );
 };
 

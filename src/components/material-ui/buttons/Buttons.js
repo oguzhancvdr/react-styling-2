@@ -2,27 +2,18 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import SaveIcon from "@material-ui/icons/Save";
 import DeleteIcon from "@material-ui/icons/Delete";
+import ButtonGroup from "@material-ui/core/ButtonGroup";
 
 const Buttons = () => {
   return (
-    <div>
-      <Button
-        color="secondary"
-        variant="contained"
-        size="large"
-        startIcon={<SaveIcon />}
-      >
+    <ButtonGroup size="large" variant="contained">
+      <Button color="secondary" startIcon={<SaveIcon color="disabled" />}>
         Save
       </Button>
-      <Button
-        color="primary"
-        variant="contained"
-        size="large"
-        endIcon={<DeleteIcon />}
-      >
+      <Button color="primary" endIcon={<DeleteIcon color="disabled" />}>
         Delete
       </Button>
-    </div>
+    </ButtonGroup>
   );
 };
 
