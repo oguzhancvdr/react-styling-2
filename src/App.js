@@ -1,11 +1,13 @@
 import "./App.css";
-import StyledComponents from "./components/styled-comp";
+import Buttons from "./components/material-ui/buttons/Buttons";
+// import StyledComponents from "./components/styled-comp";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <StyledComponents />
+        {/* <StyledComponents /> */}
+        <Buttons />
       </header>
     </div>
   );
