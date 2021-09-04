@@ -1,12 +1,15 @@
-import Grid from '@material-ui/core/Grid'
-import { Paper } from '@material-ui/core';
-
+import Grid from "@material-ui/core/Grid";
+import { Paper } from "@material-ui/core";
 
 const Cards = () => {
   return (
-    <div>
-      <p>Cards here</p>
-    </div>
+    <Grid container justify="center" spacing={2}>
+      {[0, 1, 2].map((value) => (
+        <Grid key={value} item xs={6} sm={6}>
+          <Paper style={{ height: 90}} />
+        </Grid>
+      ))}
+    </Grid>
   );
 };
 

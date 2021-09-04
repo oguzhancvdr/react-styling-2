@@ -6,6 +6,7 @@ import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import { green, orange } from "@material-ui/core/colors";
 import TypographyComp from "./components/material-ui/typography/TypographyComp";
 import Wrapper from "./components/material-ui/wrapper/Wrapper";
+import Cards from "./components/material-ui/cards/Cards";
 // import StyledComponents from "./components/styled-comp";
 
 const theme = createMuiTheme({
@@ -37,6 +38,7 @@ function App() {
           <header className="App-header">
             {/* <StyledComponents /> */}
             <TypographyComp />
+            <Cards />
             <TextFieldComp />
             <CheckBoxComp />
             <Buttons />
